@@ -32,7 +32,7 @@ public class Baker {
     }
 
     public void bakeCroissant(){
-        System.out.println("I'm baking french croissants!");
+        System.out.println("I'm baking french  croissants!");
     }
 
     public void bakeBaguette(){

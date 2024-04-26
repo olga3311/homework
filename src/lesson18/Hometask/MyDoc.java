@@ -5,7 +5,6 @@ public class MyDoc {
         Doctor doctor = new Doctor( "Ivan Petrov", "general practice", 50);
         String info = doctor. whoAmI();
         System.out.println(info);
-
         doctor.ask();
     }
 }

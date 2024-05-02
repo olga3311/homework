@@ -74,6 +74,21 @@ public class MyArrayList {
             }
         }
 
+        public  void add(OrderDetails value, int index){
+            if (index < size){
+            resize(size + 1);
+            }else{
+                resize(index+1);
+            }
+
+            for (int i = size-2; i >= index; i--){
+               array[i+1]=array[i];
+            }
+            array[index] = value;
+
+        }
+
+
         public void remove(int index) {
             for (int i = index; i < size - 1; i++) {
                 array[i] = array[i + 1];

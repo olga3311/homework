@@ -21,6 +21,11 @@ public class Main {
         order.addProduct(products[9],1);
         order.addProduct(products[7],4);
 
+
+        order.PrintDetails();
+        System.out.println();
+        order.changeProductAmount(products[5], 8);
+        order.PrintDetails();
         System.out.println("Total: " + order.getTotal());
 
 

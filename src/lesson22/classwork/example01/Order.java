@@ -30,4 +30,20 @@ public class Order {
             }
         }
     }
+    public void PrintDetails(){
+        for (int i = 0; i < orderList.getSize(); i++) {
+            orderList.get(i).print();
+        }
+    }
+    public void changeProductAmount(Product product, int amount){
+        for (int i = 0; i < orderList.getSize(); i++) {
+            if(orderList.get(i).getProduct() == product) {
+                orderList.get(i).setAmount(amount);
+                break;
+            }
+        }
+
+    }
+
+
 }

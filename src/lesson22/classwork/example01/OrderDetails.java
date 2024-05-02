@@ -31,4 +31,9 @@ public class OrderDetails {
     public double getSubtotal() {
         return subtotal;
     }
+
+
+    public void print(){
+        System.out.println("Item name: " + product.getName() + ", " + this.amount + ", subtotal: " + this.subtotal);
+    }
 }

@@ -1,8 +1,8 @@
-package lesson23.classwork.example01;
+package lesson24.example02;
 
 public class Dog extends Pet {
     private  double height;
-    private DogProfession dogProfession;
+    private  DogProfession dogProfession;
 
     public Dog(String name, int age, String breed, double weight, double height, DogProfession dogProfession) {
         super(name, age, breed, weight);

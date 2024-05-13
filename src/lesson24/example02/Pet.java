@@ -1,6 +1,6 @@
 package lesson24.example02;
 
-public class Pet {
+public abstract class Pet {
     protected  String name;
     protected  int age;
     protected  String breed;
@@ -12,7 +12,6 @@ public class Pet {
         this.breed = breed;
         this.weight = weight;
     }
-
 
 
     public String getName() {

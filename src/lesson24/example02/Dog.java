@@ -23,6 +23,11 @@ public class Dog extends Pet {
         this.height = height;
     }
 
+    public DogProfession getDogProfession() {
+        return dogProfession;
+    }
 
-
+    public void setDogProfession(DogProfession dogProfession) {
+        this.dogProfession = dogProfession;
+    }
 }

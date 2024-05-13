@@ -9,7 +9,7 @@ public class Cat extends Pet {
 
     }
 
-    public void meow(){
+    public void meow() {
         System.out.println("Мяу мяу!");
     }
 
@@ -20,6 +20,5 @@ public class Cat extends Pet {
     public void setHasFur(boolean hasFur) {
         this.hasFur = hasFur;
     }
-
 
 }
